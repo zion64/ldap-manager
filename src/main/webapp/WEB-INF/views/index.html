@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3" layout:decorator="layout.html">
+<head>
+</head>
+<body>
+	<div layout:fragment="body">
+		<div class="page-header">
+			<h1 th:text="#{label.home.page.title}">Welcome Home!</h1>
+		</div>
+		<div class="panel-body">
+			<p th:text="#{text.home.page.greeting}">Woohoo it works! You have successfully logged in!</p>
+		</div>
+	</div>
+</body>
+</html>

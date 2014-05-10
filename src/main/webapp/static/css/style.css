@@ -1,0 +1,21 @@
+.sign-in-text {
+    padding-right: 2em;
+}
+
+.page {
+	margin: 0 auto;
+	max-width: 50%;
+	min-width: 300px;
+}
+
+.alert {
+	text-align: center;
+}
+
+.username {
+	font-weight: bold;
+}
+
+.navbar-btn {
+	margin-left: 2px;
+}
